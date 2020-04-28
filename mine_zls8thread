@@ -1,0 +1,10 @@
+ADDRESS=ZL3vR2SrLdxVVj4kYxouSYT2be3gxJetphS7gWLqcD4FYWM3yveuDHiLWZhJ84SnocM71yet7ebaQ8BtzrzjiaCL36mJW6sjZ
+POOL="https://pool.zelerius.ru"
+PORT=4444
+PASSWORD=1
+ALGO="cn/zls"
+
+./xmrig -t 8 -o https://pool.zelerius.ru:2222 -u $ADDRESS -p $PASSWORD -a cn/zls -k
+
+# -o trtl.pool.mine2gether.com:2225 -u $TURTL_A -a chukwa -k
+pause

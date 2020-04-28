@@ -1,0 +1,7 @@
+XMR_A=489FhxhXxTXQqefdnvU8iZA3QKwZe6BRKXJFKKbUbckSMugLh2MBLX3R5gd4xKbbPHjD1cjALgbhJ2S5pY9f1uTLFsrqukD
+XMR_DIFFICULTY=2000
+
+./xmrig -t 4 -o mine.c3pool.com:19999 -u $XMR_A+$XMR_DIFFICULTY -p 1 -k
+
+# -o trtl.pool.mine2gether.com:2225 -u $TURTL_A -a chukwa -k
+pause
